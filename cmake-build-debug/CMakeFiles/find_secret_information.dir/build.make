@@ -89,17 +89,62 @@ CMakeFiles/find_secret_information.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/find_secret_information.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Peter/CLionProjects/find_secret_information/main.cpp -o CMakeFiles/find_secret_information.dir/main.cpp.s
 
+CMakeFiles/find_secret_information.dir/Sources/trie.cpp.o: CMakeFiles/find_secret_information.dir/flags.make
+CMakeFiles/find_secret_information.dir/Sources/trie.cpp.o: ../Sources/trie.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Peter/CLionProjects/find_secret_information/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/find_secret_information.dir/Sources/trie.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/find_secret_information.dir/Sources/trie.cpp.o -c /Users/Peter/CLionProjects/find_secret_information/Sources/trie.cpp
+
+CMakeFiles/find_secret_information.dir/Sources/trie.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/find_secret_information.dir/Sources/trie.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Peter/CLionProjects/find_secret_information/Sources/trie.cpp > CMakeFiles/find_secret_information.dir/Sources/trie.cpp.i
+
+CMakeFiles/find_secret_information.dir/Sources/trie.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/find_secret_information.dir/Sources/trie.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Peter/CLionProjects/find_secret_information/Sources/trie.cpp -o CMakeFiles/find_secret_information.dir/Sources/trie.cpp.s
+
+CMakeFiles/find_secret_information.dir/Sources/aho_corasick.cpp.o: CMakeFiles/find_secret_information.dir/flags.make
+CMakeFiles/find_secret_information.dir/Sources/aho_corasick.cpp.o: ../Sources/aho_corasick.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Peter/CLionProjects/find_secret_information/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/find_secret_information.dir/Sources/aho_corasick.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/find_secret_information.dir/Sources/aho_corasick.cpp.o -c /Users/Peter/CLionProjects/find_secret_information/Sources/aho_corasick.cpp
+
+CMakeFiles/find_secret_information.dir/Sources/aho_corasick.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/find_secret_information.dir/Sources/aho_corasick.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Peter/CLionProjects/find_secret_information/Sources/aho_corasick.cpp > CMakeFiles/find_secret_information.dir/Sources/aho_corasick.cpp.i
+
+CMakeFiles/find_secret_information.dir/Sources/aho_corasick.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/find_secret_information.dir/Sources/aho_corasick.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Peter/CLionProjects/find_secret_information/Sources/aho_corasick.cpp -o CMakeFiles/find_secret_information.dir/Sources/aho_corasick.cpp.s
+
+CMakeFiles/find_secret_information.dir/Sources/read_files.cpp.o: CMakeFiles/find_secret_information.dir/flags.make
+CMakeFiles/find_secret_information.dir/Sources/read_files.cpp.o: ../Sources/read_files.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Peter/CLionProjects/find_secret_information/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/find_secret_information.dir/Sources/read_files.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/find_secret_information.dir/Sources/read_files.cpp.o -c /Users/Peter/CLionProjects/find_secret_information/Sources/read_files.cpp
+
+CMakeFiles/find_secret_information.dir/Sources/read_files.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/find_secret_information.dir/Sources/read_files.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Peter/CLionProjects/find_secret_information/Sources/read_files.cpp > CMakeFiles/find_secret_information.dir/Sources/read_files.cpp.i
+
+CMakeFiles/find_secret_information.dir/Sources/read_files.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/find_secret_information.dir/Sources/read_files.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Peter/CLionProjects/find_secret_information/Sources/read_files.cpp -o CMakeFiles/find_secret_information.dir/Sources/read_files.cpp.s
+
 # Object files for target find_secret_information
 find_secret_information_OBJECTS = \
-"CMakeFiles/find_secret_information.dir/main.cpp.o"
+"CMakeFiles/find_secret_information.dir/main.cpp.o" \
+"CMakeFiles/find_secret_information.dir/Sources/trie.cpp.o" \
+"CMakeFiles/find_secret_information.dir/Sources/aho_corasick.cpp.o" \
+"CMakeFiles/find_secret_information.dir/Sources/read_files.cpp.o"
 
 # External object files for target find_secret_information
 find_secret_information_EXTERNAL_OBJECTS =
 
 find_secret_information: CMakeFiles/find_secret_information.dir/main.cpp.o
+find_secret_information: CMakeFiles/find_secret_information.dir/Sources/trie.cpp.o
+find_secret_information: CMakeFiles/find_secret_information.dir/Sources/aho_corasick.cpp.o
+find_secret_information: CMakeFiles/find_secret_information.dir/Sources/read_files.cpp.o
 find_secret_information: CMakeFiles/find_secret_information.dir/build.make
 find_secret_information: CMakeFiles/find_secret_information.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Peter/CLionProjects/find_secret_information/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable find_secret_information"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Peter/CLionProjects/find_secret_information/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable find_secret_information"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/find_secret_information.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

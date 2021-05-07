@@ -6,7 +6,43 @@
 
 #IncludeRegexTransform: 
 
+/Users/Peter/CLionProjects/find_secret_information/Headers/aho_corasick.h
+trie.h
+/Users/Peter/CLionProjects/find_secret_information/Headers/trie.h
+
+/Users/Peter/CLionProjects/find_secret_information/Headers/read_files.h
+fstream
+-
+
+/Users/Peter/CLionProjects/find_secret_information/Headers/trie.h
+string
+-
+unordered_map
+-
+
+/Users/Peter/CLionProjects/find_secret_information/Sources/aho_corasick.cpp
+../Headers/aho_corasick.h
+/Users/Peter/CLionProjects/find_secret_information/Headers/aho_corasick.h
+iostream
+-
+
+/Users/Peter/CLionProjects/find_secret_information/Sources/read_files.cpp
+../Headers/read_files.h
+/Users/Peter/CLionProjects/find_secret_information/Headers/read_files.h
+iostream
+-
+
+/Users/Peter/CLionProjects/find_secret_information/Sources/trie.cpp
+../Headers/trie.h
+/Users/Peter/CLionProjects/find_secret_information/Headers/trie.h
+vector
+-
+
 /Users/Peter/CLionProjects/find_secret_information/main.cpp
+Headers/read_files.h
+/Users/Peter/CLionProjects/find_secret_information/Headers/read_files.h
+Headers/aho_corasick.h
+/Users/Peter/CLionProjects/find_secret_information/Headers/aho_corasick.h
 iostream
 -
 

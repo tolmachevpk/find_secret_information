@@ -93,12 +93,12 @@ clean: CMakeFiles/find_secret_information.dir/clean
 CMakeFiles/find_secret_information.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_secret_information.dir/build.make CMakeFiles/find_secret_information.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_secret_information.dir/build.make CMakeFiles/find_secret_information.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Peter/CLionProjects/find_secret_information/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target find_secret_information"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Peter/CLionProjects/find_secret_information/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target find_secret_information"
 .PHONY : CMakeFiles/find_secret_information.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/find_secret_information.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Peter/CLionProjects/find_secret_information/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Peter/CLionProjects/find_secret_information/cmake-build-debug/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/find_secret_information.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Peter/CLionProjects/find_secret_information/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/find_secret_information.dir/rule
