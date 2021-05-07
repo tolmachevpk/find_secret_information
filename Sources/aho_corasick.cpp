@@ -11,7 +11,7 @@ void AhoKorasik::algorithmRealization(const std::string &word) {
 }
 
 void AhoKorasik::out(Trie* node) {
-    if (node->terminalVertex == false) {
+    if (!node->terminalVertex) {
         node = termLink(node);
     }
     for ( ; node != root; node = termLink(node)) {

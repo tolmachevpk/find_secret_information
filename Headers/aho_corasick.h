@@ -3,6 +3,8 @@
 
 #include "trie.h"
 
+using namespace std::literals::string_literals;
+
 class AhoKorasik : private MakeTrie {
 public:
     explicit AhoKorasik(const std::string& s) : MakeTrie(s) {}

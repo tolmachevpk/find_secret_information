@@ -4,6 +4,8 @@
 #include <string>
 #include <unordered_map>
 
+using namespace std::literals::string_literals;
+
 struct Trie {
     bool terminalVertex;
     std::unordered_map<char, Trie*> map;

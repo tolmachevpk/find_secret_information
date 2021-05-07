@@ -1,10 +1,9 @@
 #include "Headers/read_files.h"
 #include "Headers/aho_corasick.h"
-#include <iostream>
 
 using namespace std;
 
-int main(int ac, char * av[]) {
+int main(int ac, char *av[]) {
     if (ac != 3) {
         perror("Bad input");
     }
@@ -25,4 +24,5 @@ int main(int ac, char * av[]) {
 
     AhoKorasik *alg = new AhoKorasik(file_in_dir);
     alg->algorithmRealization(dir);
+    delete alg;
 }

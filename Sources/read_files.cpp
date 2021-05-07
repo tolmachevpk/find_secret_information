@@ -2,14 +2,13 @@
 #include <iostream>
 
 std::string Read_bytes::read(const std::string &name) {
-    std::string res;
+    std::string res = ""s;
     std::ifstream fin;
 
     if (std::filesystem::is_directory(name)) {
         for (const auto & entry: std::filesystem::directory_iterator(name)) {
             if (std::filesystem::is_directory(entry.path())) {
-                std::cout << "directory in directory: " << entry.path() << std::endl;
-                exit(0);
+                perror("directory in directory");
             }
 
             fin.open(entry.path(), std::ios::binary | std::ios::in);
@@ -48,10 +47,11 @@ std::string Read_bytes::read(const std::string &name) {
 
 void Read_bytes::read_file(std::ifstream &fin, std::string &res) {
     for (;;) {
-        int c = fin.get();
-        if (c == EOF) {
+        char c;
+        if (fin.get(c)) {
+            res.push_back(c);
+        } else {
             break;
         }
-        res.push_back(static_cast<char>(c));
     }
 }
